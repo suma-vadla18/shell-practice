@@ -28,5 +28,5 @@ dnf install nodejs -y
 if [ $? -ne 0 ]; then
     echo "Installing nodejs....FAILURE"
 else
-    echo "Installing nodejs.....SUCCESS
+    echo "Installing nodejs.....SUCCESS"
 fi
