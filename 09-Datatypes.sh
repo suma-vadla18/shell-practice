@@ -1,0 +1,10 @@
+#!/bin/bash
+
+NUM1=100
+NUM2=200
+NUM3=300
+NUM4=SIVA
+SUM1=$(($NUM1+$NUM2))
+SUM2=$(($NUM3+$NUM4))
+echo "SUM OF TWO NUMBERS: $SUM1"
+echo "SUM OF ONE NUMBER AND STRING: $SUM2" #string value it takes as 0
