@@ -13,3 +13,4 @@ if [ $? -ne 0 ]; then
     echo "Installing Nginx...FAILURE"
 else
     echo "Installing Nginx...SUCCESS"
+fi
