@@ -19,9 +19,9 @@ dnf install nginx -y
 VALIDATE $? "Installing Nginx"
 
 dnf install mysql -y
-VALIDATE $? "Installing Nginx"
+VALIDATE $? "Installing mysql"
 
 dnf install nodejs -y
-VALIDATE $? "Installing Nginx"
+VALIDATE $? "Installing nodejs"
 
 
