@@ -16,4 +16,4 @@ fi
 }   
 
 dnf install nginx -y
-VALIDATE $? Installing
+VALIDATE $? Installing Nginx
