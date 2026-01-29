@@ -1,3 +1,4 @@
+#!/bin/bash
 Fruits=("apple" "banana" "pomo")
 echo "Fruits are: ${Fruits[@]}"
 echo "First fruit is: ${Fruits[0]}"
