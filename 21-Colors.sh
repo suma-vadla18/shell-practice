@@ -10,7 +10,7 @@ N="\e[33m"
 
 
 if [ $USERID -ne 0 ]; then
- echo   "$R please run this script root user acess $N" | tee -a $LOG_File
+ echo "$R please run this script root user acess $N" | tee -a $LOG_File
  exit 1
 fi
 
