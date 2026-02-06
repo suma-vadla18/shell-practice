@@ -6,12 +6,12 @@ Y="\e[33m"
 N="\e[0m"
 
 LOGS_DIR=/home/ec2-user/app-logs
-LOGS_FILE=$LOGS_DIR/$(basename "$0").log"
+LOGS_FILE="$LOGS_DIR/$(basename "$0").log"
 
 echo "logs directory is : $LOGS_DIR"
 echo "logs file is : $LOGS_FILE"
 
-if [ ! -d "$LOGS_DIR"]; then 
+if [ ! -d "$LOGS_DIR" ]; then 
   echo -e "$LOGS_DIR does not exist"
   exit 1
 fi
