@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 
 USERID=$(id -u)
 LOG_FOLDER=/var/log/shell-practice
