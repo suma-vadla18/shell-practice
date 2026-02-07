@@ -2,7 +2,6 @@
 
 set -e
 
-trap 'echo "there is an error in $LINENO, command:$BASH_COMMAND"' ERR
 
 USERID=$(id -u)
 LOG_FOLDER=/var/log/shell-practice
